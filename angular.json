@@ -1,9 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "api": "apps/api",
-    "api-interfaces": "libs/api-interfaces",
-    "app-agregador-investimentos": "apps/app-agregador-investimentos",
-    "app-agregador-investimentos-e2e": "apps/app-agregador-investimentos-e2e"
+    "backend": "apps/backend",
+    "frontend": "apps/frontend",
+    "frontend-e2e": "apps/frontend-e2e"
   }
 }
