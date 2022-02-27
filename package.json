@@ -12,7 +12,7 @@
         "build": "nx build backend --prod",
         "test": "nx test",
         "start": "node dist/apps/backend/main.js",
-        "heroku-postbuild": "npm nx build backend --prod"
+        "heroku-postbuild": "npm install -g nx && nx build backend --prod"
     },
     "dependencies": {
         "@angular/animations": "~13.2.0",
@@ -55,6 +55,7 @@
         "@types/node": "16.11.7",
         "@typescript-eslint/eslint-plugin": "~5.10.0",
         "@typescript-eslint/parser": "~5.10.0",
+        "nx": "^13.8.3",
         "cypress": "^9.1.0",
         "eslint": "~8.7.0",
         "eslint-config-prettier": "8.1.0",
